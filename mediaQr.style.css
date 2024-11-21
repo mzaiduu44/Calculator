@@ -1,0 +1,71 @@
+@media only screen and (max-width: 767px) {
+    .heading {
+        color: white;
+        text-align: center;
+        margin: 8px 10px;
+        font-size: 29px; 
+    }
+
+    .input {
+        padding: 10px;
+        font-size: 28px;
+        width: 80%;
+    }
+
+    button.btn {
+        width: 65px; 
+        height: 65px;
+        font-size: 24px;
+        border-radius: 50%;
+        border: 2px solid black;
+        background-color: rgba(227, 228, 208, 0.5);
+        color: black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    button.btn.width {
+        width: 215px;
+        border-radius: 51px;
+    }
+    .heading {
+        color: white;
+        text-align: center;
+        margin: 8px 10px;
+        font-size: 3rem; 
+    }
+
+    .input {
+        border: 2px solid black;
+        border-radius: 23px;
+        padding: 7px;
+        width: 55%; 
+        height: 65px;
+        font-size: 35px;
+        background-color: rgba(255, 255, 255, 0.5); 
+        color: black;
+    }
+
+    button.btn {
+        width: 90px; 
+        height: 90px;
+        font-size: 30px; 
+        border-radius: 50%; 
+        border: 2px solid black;
+        background-color: rgba(227, 228, 208, 0.5);
+        color: black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+    
+}
+
